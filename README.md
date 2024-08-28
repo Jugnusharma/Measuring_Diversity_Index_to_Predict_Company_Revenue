@@ -44,17 +44,6 @@ With this understanding in mind we can add an Diversity Index Col with the Simps
 **Scenario**
 To predict the increase in revenue for every 1% increase in the ethnic diversity index is based on the coefficient of the ethnic diversity index from the regression model. Our dataset no whas other variable in it 
 
-Year	Adertising Expense	Inclusive Score on Engagment Survey	Revnue	Black 	Hispanic	White
-2015	 $95.00 	96	 $1,200.00 	34	33	33
-2016	 $90.00 	92	 $1,200.00 	30	30	40
-2017	 $95.00 	93	 $1,200.00 	25	30	45
-2018	 $80.00 	85	 $1,600.00 	20	25	55
-2019	 $95.00 	91	 $1,100.00 	15	25	60
-2020	 $75.00 	72	 $1,050.00 	10	25	65
-2021	 $85.00 	80	 $1,000.00 	5	20	75
-2022	 $80.00 	85	 $950.00 	0	20	80
-2023	 $75.00 	72	 $850.00 	0	10	90
-2024	 $75.00 	70	 $800.00 	0	0	100
 ![image](https://github.com/user-attachments/assets/4f5d6742-06f1-4504-8f15-72b482b56b25)
 
 Here's how it works:
