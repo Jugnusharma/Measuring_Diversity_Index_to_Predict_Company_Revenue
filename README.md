@@ -41,21 +41,21 @@ The diversity index for 2024 is 0 because all the individuals belong to a single
 **Deploy**
 With this understanding in mind we can add an Diversity Index Col with the Simpson's diversity index formula that takes into account 2 elements of diversity- richness and evenness. Richness is the number of ethnic groups and evenness is the ethnic group spread.  The more ethic group present in a sample the richer the data. High Ethnic diversity index close to 1 indicates high diversity. Low ethnic diversity index close to 0 indicates low diversity 
 
-**Scenario 1**
-To predict the increase in revenue for every 1% increase in the ethnic diversity index is based on the coefficient of the ethnic diversity index from the regression model. Our dataset no whas other variable in it 
-
-![image](https://github.com/user-attachments/assets/4f5d6742-06f1-4504-8f15-72b482b56b25)
-
-Here's how it works:
-
-**Create Regression Model:**
+**Create Regression Model (Fig1):**
 
 Data Preparation: The data is first organized into a pandas DataFrame.
 Simpson's Diversity Index Calculation: A function is used to calculate the Simpson's Diversity Index, which is then applied to each row in the DataFrame.
 Linear Regression: The model is trained using Advertising Expense, Inclusive Score, and Ethnic Diversity Index as predictors and Revenue as the target.
 
+![image](https://github.com/user-attachments/assets/3181e864-0882-4e99-a813-43dc3ed7f106)
+
+**Scenario 1** - Fig 2
+To predict the increase in revenue for every 1% increase in the ethnic diversity index is based on the coefficient of the ethnic diversity index from the regression model. Our dataset no whas other variable in it 
+
+Here's how it works:
+
 **Given:**
-The coefficient for the ethnic diversity index (EEE) from the regression model is approximately 868.979 (Fig 1)
+The coefficient for the ethnic diversity index (EEE) from the regression model is approximately 868.979 (Fig 2)
 
 **Ethnic Diversity Index Coefficient:**
 This coefficient indicates the change in revenue for a unit change (which in this case is 1.0 or 100%) in the ethnic diversity index.
@@ -68,11 +68,11 @@ Thus, for **every 1% increase in the ethnic diversity index**, **the revenue is 
 
 ![image](https://github.com/user-attachments/assets/1f218f6d-264b-4f2d-a45e-266012ab6070)
 
-**Scenario 2**
+**Scenario 2** - - Fig 3
 Predict the revenue based on the linear regression model (Fig2)
 
 **Given:**
-The coefficient for the ethnic diversity index (EEE) from the regression model is approximately 868.979 (Fig 1)
+The coefficient for the ethnic diversity index (EEE) from the regression model is approximately 868.979 (Fig 3)
 
 **Predict revenue**
 If given Advertising Expense = 80, Inclusive Score = 80, and Ethnic Diversity Index = 0.8 
