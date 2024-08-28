@@ -1,4 +1,4 @@
-# Calculation for diversity_index
+# Calculation for Diversity Index and Predictions based on the Index
 
 Simpson's indices are a way of quantifying the biodiversity of communities. The value of Simpson's index reflects how many different types of species are in a community and how evenly distributed the population of each species is. We can use this same logic in an HR setting in order to understand the diversity and the impact that it has on other variables. In this example below the effect that the index has on revenue. 
 
@@ -9,7 +9,7 @@ White: 100 individuals
 Total individuals: 0+0+100=100
 
 
-To calculate the Simpson's Diversity Index for 2024 we follow these steps. Note for simplitcity sake I have used a total on 10 individuals, in real world the totals would be different and the proportions but would calucated based on %:
+To calculate the Simpson's Diversity Index for 2024 we follow these steps. Note for simplicity sake I have used a total on 10 individuals, in real world the totals would be different and the proportions but would calculated  based on %:
 
 **1. Identify the Proportions for 2024:**
 Black: 0 individuals
@@ -52,7 +52,7 @@ Linear Regression: The model is trained using Advertising Expense, Inclusive Sco
 ![image](https://github.com/user-attachments/assets/3181e864-0882-4e99-a813-43dc3ed7f106)
 
 **Scenario 1** - Fig 2
-To predict the increase in revenue for every 1% increase in the ethnic diversity index is based on the coefficient of the ethnic diversity index from the regression model. Our dataset no whas other variable in it 
+To predict the increase in revenue for every 1% increase in the ethnic diversity index is based on the coefficient of the ethnic diversity index from the regression model. Our dataset now has added/other variables 
 
 Here's how it works:
 
