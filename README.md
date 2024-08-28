@@ -1,4 +1,4 @@
-# Python Code for diversity_index
+# Calculation for diversity_index
 
 To calculate the Simpson's Diversity Index we follow these steps:
 
