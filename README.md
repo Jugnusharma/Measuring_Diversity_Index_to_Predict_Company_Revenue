@@ -68,7 +68,7 @@ Thus, for **every 1% increase in the ethnic diversity index**, **the revenue is 
 
 *****************************************************************************************************
 **Scenario 2** - - Fig 3
-Predict the revenue based on the linear regression model (Fig2)
+Predict the revenue based on the linear regression model 
 
 **Given:**
 The coefficient for the ethnic diversity index (EEE) from the regression model is approximately 868.979 (Fig 3)
