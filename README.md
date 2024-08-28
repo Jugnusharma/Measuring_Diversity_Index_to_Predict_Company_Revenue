@@ -1,6 +1,6 @@
-# diversity_index
-Diversity Index
-# %%
+# Python Code for diversity_index
+
+
 import numpy as np
 import pandas as pd
 from sklearn.linear_model import LinearRegression
@@ -16,11 +16,9 @@ data = {
     "White (%)": [33, 40, 45, 55, 60, 65, 75, 80, 90, 100]
 }
 
-# %%
 # Create DataFrame
 df = pd.DataFrame(data)
 
-# %%
 # Function to calculate Simpson's Diversity Index
 def simpsons_diversity_index(percentages):
     # Convert percentages to proportions
@@ -31,59 +29,46 @@ def simpsons_diversity_index(percentages):
     diversity_index = 1 - sum_of_squares
     return diversity_index
 
-# %%
 # Apply the function to calculate the Ethnic Diversity Index for each year
 df['Ethnic Diversity Index'] = df[['Black (%)', 'Hispanic (%)', 'White (%)']].apply(simpsons_diversity_index, axis=1)
 
-# %%
 # Round the result to 2 decimal places
 df['Ethnic Diversity Index'] = df['Ethnic Diversity Index'].round(2)
 
-# %%
 # Display the final DataFrame
 print(df)
 
-# %%
 # Prepare the data for regression
 x = df[['Advertising Expense', 'Inclusive Score', 'Ethnic Diversity Index']]
 y = df['Revenue ($)']
 
-# %%
 # Initialize the Linear Regression Model
 model = LinearRegression()
 
-# %%
 # Fit the model to the data 
 model.fit(x,y)
 
-# %%
 #Coefficients of the regression formula 
 coefficients = model.coef_
 intercept = model.intercept_ 
 
-# %%
+
 # Predict revenue given specific inputs
 ad_expense = 20
 inclusion_rating = 20
 ethnic_diversity_index = 0.2
 
-
-# %%
 predicted_revenue = model.predict([[ad_expense, inclusion_rating, ethnic_diversity_index]])
 
-
-# %%
 # Output the predicted revenue
 print(f"The predicted revenue is: ${predicted_revenue[0]:.2f}")
 
-# %%
 # Predict revenue given specific inputs
 ad_expense = 80
 inclusion_rating = 80
 ethnic_diversity_index = 0.8
 
 predicted_revenue = model.predict([[ad_expense, inclusion_rating, ethnic_diversity_index]])
-
 
 # Output the predicted revenue
 print(f"The predicted revenue is: ${predicted_revenue[0]:.2f}")
