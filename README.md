@@ -48,6 +48,11 @@ To predict the increase in revenue for every 1% increase in the ethnic diversity
 
 Here's how it works:
 
+**Creata Regression Model: **
+Data Preparation: The data is first organized into a pandas DataFrame.
+Simpson's Diversity Index Calculation: A function is used to calculate the Simpson's Diversity Index, which is then applied to each row in the DataFrame.
+Linear Regression: The model is trained using Advertising Expense, Inclusive Score, and Ethnic Diversity Index as predictors and Revenue as the target.
+
 **Given:**
 The coefficient for the ethnic diversity index (EEE) from the regression model is approximately 868.979 (Fig 1)
 
