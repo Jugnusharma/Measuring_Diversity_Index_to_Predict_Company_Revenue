@@ -44,7 +44,9 @@ With this understanding in mind we can add an Diversity Index Col with the Simps
 **Create Regression Model (Fig1):**
 
 Data Preparation: The data is first organized into a pandas DataFrame.
+
 Simpson's Diversity Index Calculation: A function is used to calculate the Simpson's Diversity Index, which is then applied to each row in the DataFrame.
+
 Linear Regression: The model is trained using Advertising Expense, Inclusive Score, and Ethnic Diversity Index as predictors and Revenue as the target.
 
 ![image](https://github.com/user-attachments/assets/3181e864-0882-4e99-a813-43dc3ed7f106)
