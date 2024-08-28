@@ -60,6 +60,14 @@ coefficients = model.coef_
 intercept = model.intercept_ 
 
 # %%
+# Display the intercept and coefficients
+print("Intercept:", intercept)
+print("\nCoefficients:")
+for feature, coef in zip(['Advertising Expense', 'Inclusive Score', 'Ethnic Diversity Index'], coefficients):
+    print(f"{feature}: {coef:.4f}")
+
+
+# %%
 # Predict revenue given specific inputs
 ad_expense = 20
 inclusion_rating = 20
