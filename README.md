@@ -33,16 +33,19 @@ The diversity index for 2024 is 0 because all the individuals belong to a single
 With this understanding in mind we can add an Diversity Index Col with the Simpson's diversity index formula that takes into account 2 elements of diversity- richness and evenness. Richness is the number of ethnic groups and evenness is the ethnic group spread.  The more ethic group present in a sample the richer the data. High Ethnic diversity index close to 1 indicates high diversity. Low ethnic diversity index close to 0 indicates low diversity 
 
 **Scenario**
-To determine the increase in revenue for every 1% increase in the ethnic diversity index is based on the coefficient of the ethnic diversity index from the regression model. 
+To predict the increase in revenue for every 1% increase in the ethnic diversity index is based on the coefficient of the ethnic diversity index from the regression model. 
 
 Here's how it works:
 
 **Given:**
 The coefficient for the ethnic diversity index (EEE) from the regression model is approximately 868.979
+
 **Ethnic Diversity Index Coefficient:**
 This coefficient indicates the change in revenue for a unit change (which in this case is 1.0 or 100%) in the ethnic diversity index.
+
 **Calculate the impact of a 1% change:**
 Since 1% increase corresponds to 0.01 (because 1%=0.01on the scale used in the model), we multiply the coefficient by 0.01:
 E = 868.979 X 0.01 = 8.68979
-Thus, for every 1% increase in the ethnic diversity index, the revenue is predicted to increase by approximately** $8.69.**
+
+Thus, for **every 1% increase in the ethnic diversity index**, **the revenue is predicted to increase by approximately $8.69.**
 
