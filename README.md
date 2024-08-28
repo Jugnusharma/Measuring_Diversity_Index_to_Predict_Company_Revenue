@@ -66,8 +66,7 @@ E = 868.979 X 0.01 = 8.68979
 
 Thus, for **every 1% increase in the ethnic diversity index**, **the revenue is predicted to increase by approximately $8.69.**
 
-![image](https://github.com/user-attachments/assets/1f218f6d-264b-4f2d-a45e-266012ab6070)
-
+*****************************************************************************************************
 **Scenario 2** - - Fig 3
 Predict the revenue based on the linear regression model (Fig2)
 
